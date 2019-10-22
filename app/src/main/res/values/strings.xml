@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TPDM_U3_Practica1_KevinAlexisVillegas</string>
+
+    <array name="cierto">
+        <item>No pagado</item>
+        <item>Pagado</item>
+
+
+    </array>
+</resources>
