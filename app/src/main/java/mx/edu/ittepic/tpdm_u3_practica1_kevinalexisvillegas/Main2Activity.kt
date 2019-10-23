@@ -35,8 +35,10 @@ class Main2Activity : AppCompatActivity() {
 
                 descrip?.setText(it.getString("Descripcion"))
                 fecha?.setText(it.getString("Fecha"))
-
                 monto?.setText(it.getDouble("Monto").toString())
+                Rpagado?.isChecked= it.getBoolean("Pagado")!!
+
+
             }
             .addOnFailureListener {
                 descrip?.setText("NULL")

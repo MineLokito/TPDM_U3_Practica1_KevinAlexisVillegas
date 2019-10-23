@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                     registros.add("no hay datos Capturados")
                 }
                 var adapter=ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,registros)
-                lista?.adapter=adapter
+                lista.adapter=adapter
             }
 
         lista.setOnItemClickListener { parent, view, position, id ->
